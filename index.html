@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<form action="" id="new-thing">
+
+	<div id="nameBox"><p>Employee First Name</p><input style="font-size:25px" type="text" id="search-term" ></div>
+	
+	<input type="submit" name="Submit" value="Search" class="btn color-1"/>
+
+</form>
+
+<div id="results"></div>
+
+
+
+<script type="template" id="page-template"> <!--//dont put text/javascript put template-->
+ <div class="person">
+    <img src="{{media_avatar}}"/>
+	<h1>Full Name: {{name}}</h1>
+    <h3>Position: {{title}}</h3>
+    <p>Gang: {{department}}</p>
+	<p>My Hood: {{home_region}} </p> <!--//what goes inside are the property names that is seen through API -->
+	<p>How I Get to Work: {{commute_method}} </p>
+</div>
+
+</script> <!--making the template-->
+<script type="text/javascript" src="jquery-2.1.1.js"></script>
+<script type="text/javascript" src="underscore.js"></script>
+<script type="text/javascript" src="backbone.js"></script>
+<script type="text/javascript" src="handlebars.js"></script>
+<script type="text/javascript" src="carrot-graph.js"></script>
+
+
+</body>
+</html>

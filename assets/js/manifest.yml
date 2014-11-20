@@ -1,0 +1,4 @@
+- vendor/jquery.js
+- vendor/underscore.js
+- vendor/backbone.js
+- main.*

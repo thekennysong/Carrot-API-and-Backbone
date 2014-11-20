@@ -1,0 +1,15 @@
+{
+  "name": "carrot-backbone-test",
+  "description": "",
+  "dependencies": {
+    "autoprefixer-stylus": "0.3.x",
+    "axis": "0.3.x",
+    "client-templates": "0.1.x",
+    "coffee-script": "1.8.x",
+    "jade": "1.x",
+    "js-pipeline": "0.1.x",
+    "marked": "0.3.x",
+    "rupture": "0.4.x",
+    "stylus": "0.48.x"
+  }
+}

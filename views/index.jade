@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  
+  form#new-thing(action="")
+    #nameBox
+      p Employee First Name
+      input#search-term(type="text")
+      input.btn.color-1(type="submit", name="submit", value="Search")
+
+  #results

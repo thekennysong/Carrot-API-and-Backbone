@@ -1,5 +1,7 @@
 # carrot + backbone api test
 
+Kenny Song's Carrot API & Backbone test built in the carrot way : )
+
 Setup
 -----
 

@@ -1,8 +1,8 @@
 axis         = require 'axis'
 rupture      = require 'rupture'
 autoprefixer = require 'autoprefixer-stylus'
-
-ClientTemplates = require('client-templates')
+templates    = require 'client-templates'
+js_pipeline  = require 'js-pipeline'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore']
@@ -10,4 +10,7 @@ module.exports =
   stylus:
     use: [axis(), rupture(), autoprefixer()]
 
-  extensions: [ClientTemplates( base: "templates/" )]
+  extensions: [
+    templates(base: 'templates/', pattern: '*.jade', out: 'js/templates.js'),
+    js_pipeline(manifest: 'assets/js/manifest.yml', minify: true)
+  ]

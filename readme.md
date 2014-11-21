@@ -1,6 +1,6 @@
 # carrot + backbone api test
 
-Kenny Song's Carrot API & Backbone test built in the carrot way : )
+Kenny Song's Carrot API & Backbone test built in the carrot way : ) Original files are in the gh-pages. Cheers! 
 
 Setup
 -----
